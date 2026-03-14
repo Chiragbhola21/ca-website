@@ -1,0 +1,103 @@
+/* ============================================
+   DESIGN TOKENS — Sharma & Associates
+   ============================================ */
+
+:root {
+  /* Primary Navy Palette */
+  --primary: #1B3A5C;
+  --primary-dark: #112840;
+  --primary-light: #2A5F8F;
+  --primary-ultra-light: #E8EFF7;
+
+  /* Gold Accent */
+  --secondary: #C8A45A;
+  --secondary-light: #D4B76A;
+  --secondary-dark: #A88940;
+  --secondary-ultra-light: #FDF6E7;
+
+  /* Backgrounds */
+  --bg-dark: #0F2337;
+  --bg-medium: #1B3A5C;
+  --bg-light: #F7F9FC;
+  --bg-white: #FFFFFF;
+  --bg-off-white: #FAFBFD;
+
+  /* Text */
+  --text-primary: #1A1A2E;
+  --text-secondary: #5A6A7E;
+  --text-muted: #8A97A8;
+  --text-light: #FFFFFF;
+  --text-light-secondary: rgba(255, 255, 255, 0.75);
+
+  /* Borders / Dividers */
+  --border-light: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-dark: rgba(255, 255, 255, 0.15);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.15);
+  --shadow-gold: 0 4px 20px rgba(200, 164, 90, 0.25);
+
+  /* Spacing Scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Typography */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  /* Line Heights */
+  --leading-tight: 1.2;
+  --leading-snug: 1.375;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Z-Index Scale */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+
+  /* Layout */
+  --container-max: 1200px;
+  --container-wide: 1400px;
+  --header-height: 80px;
+}
